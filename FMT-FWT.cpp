@@ -45,7 +45,7 @@ namespace FWT
 };
 namespace FMT
 {
-	void FMT(int n,double *a,int sign)
+	void FMT(int n,int *a,int sign)
 	{
 		int m=1<<n;
 		for(int j=0;j<n;j++)
